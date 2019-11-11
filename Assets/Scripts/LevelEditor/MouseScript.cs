@@ -49,6 +49,7 @@ public class MouseScript : MonoBehaviour
             return;
         // Have the object follow the mouse cursor by getting mouse coordinates and converting them to world point.
         mousePos = Input.mousePosition;
+
         if (Camera.main.GetComponent<CameraSwitch>() == true)
         {
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
