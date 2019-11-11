@@ -1,0 +1,12 @@
+﻿  Wrapper.cpp
+C:\Users\100585118\Desktop\IndividualAssignment1-master\IA1\C++ Assets\A1\operationTracker.h(12,23): warning C4251: 'operationTracker::timerFileOut': class 'std::basic_ofstream<char,std::char_traits<char>>' needs to have dll-interface to be used by clients of class 'operationTracker'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\iosfwd(224): message : see declaration of 'std::basic_ofstream<char,std::char_traits<char>>'
+C:\Users\100585118\Desktop\IndividualAssignment1-master\IA1\C++ Assets\A1\operationTracker.h(13,22): warning C4251: 'operationTracker::timerFileIn': class 'std::basic_ifstream<char,std::char_traits<char>>' needs to have dll-interface to be used by clients of class 'operationTracker'
+  operationTracker.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\iosfwd(223): message : see declaration of 'std::basic_ifstream<char,std::char_traits<char>>'
+C:\Users\100585118\Desktop\IndividualAssignment1-master\IA1\C++ Assets\A1\operationTracker.h(12,23): warning C4251: 'operationTracker::timerFileOut': class 'std::basic_ofstream<char,std::char_traits<char>>' needs to have dll-interface to be used by clients of class 'operationTracker'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\iosfwd(224): message : see declaration of 'std::basic_ofstream<char,std::char_traits<char>>'
+C:\Users\100585118\Desktop\IndividualAssignment1-master\IA1\C++ Assets\A1\operationTracker.h(13,22): warning C4251: 'operationTracker::timerFileIn': class 'std::basic_ifstream<char,std::char_traits<char>>' needs to have dll-interface to be used by clients of class 'operationTracker'
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\iosfwd(223): message : see declaration of 'std::basic_ifstream<char,std::char_traits<char>>'
+  A1.vcxproj -> C:\Users\100585118\Desktop\IndividualAssignment1-master\IA1\C++ Assets\x64\Debug\A1.dll

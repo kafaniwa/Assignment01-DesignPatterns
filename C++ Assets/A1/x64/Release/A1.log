@@ -1,0 +1,12 @@
+﻿  operationTracker.cpp
+C:\Users\clank\source\repos\A1\A1\operationTracker.h(18,28): warning C4251:  'operationTracker::objectPosiFileOut': class 'std::basic_ofstream<char,std::char_traits<char>>' needs to have dll-interface to be used by clients of class 'operationTracker'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\iosfwd(224): message :  see declaration of 'std::basic_ofstream<char,std::char_traits<char>>'
+C:\Users\clank\source\repos\A1\A1\operationTracker.h(19,27): warning C4251:  'operationTracker::objectPosiFileIn': class 'std::basic_ifstream<char,std::char_traits<char>>' needs to have dll-interface to be used by clients of class 'operationTracker'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\iosfwd(223): message :  see declaration of 'std::basic_ifstream<char,std::char_traits<char>>'
+     Creating library C:\Users\clank\source\repos\A1\x64\Release\A1.lib and object C:\Users\clank\source\repos\A1\x64\Release\A1.exp
+  Generating code
+  5 of 188 functions ( 2.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  A1.vcxproj -> C:\Users\clank\source\repos\A1\x64\Release\A1.dll

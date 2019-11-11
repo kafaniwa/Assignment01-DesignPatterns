@@ -44,9 +44,11 @@ public class MouseScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-            // Have the object follow the mouse cursor by getting mouse coordinates and converting them to world point.
-            mousePos = Input.mousePosition;
+        CameraSwitch access = GameObject.Find("Camera").GetComponent<CameraSwitch>();
+        if (access.topCamera.enabled == true)
+            return;
+        // Have the object follow the mouse cursor by getting mouse coordinates and converting them to world point.
+        mousePos = Input.mousePosition;
         if (Camera.main.GetComponent<CameraSwitch>() == true)
         {
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
